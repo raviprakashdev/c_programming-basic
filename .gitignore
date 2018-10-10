@@ -1,3 +1,4 @@
 #ignoring .exe files
 
 *.exe
+gmon.out
