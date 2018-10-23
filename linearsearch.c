@@ -21,7 +21,7 @@ void main()
 		else
 		{
 		printf("\n Element not found");
-	}
+	
 	}
 
 }
