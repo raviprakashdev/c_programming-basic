@@ -9,7 +9,7 @@ int main()
 	{
 		scanf("%d",&arr[i]);
 	}
-	for(i=0;i<n;i++)
+	++)
 	{
 		for(j=0;j<n-i;j++)
 		{
@@ -24,7 +24,7 @@ int main()
 	printf("sorted array");
 	for(i=0;i<n;i++)
 	{
-		printf("%d",arr[i]);
+		printf("%d",arr[i+1]);
 	}
 	return 0;
 }
