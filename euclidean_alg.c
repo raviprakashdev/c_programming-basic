@@ -6,7 +6,7 @@ int recursive_euclides(int a, int b)
 {
     if (a == b)
     {
-        return a; // base case, this is the number
+        return a;
     } else if (a > b)
     {
         return recursive_euclides(a - b, b);
