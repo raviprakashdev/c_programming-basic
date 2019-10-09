@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,i;
+    printf("Enter Numbers");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    while (a>=b){
+        a=a-b;
+    }
+    printf("%d",a);
+    return 0;
+}
