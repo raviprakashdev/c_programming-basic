@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	
 	if(a>b && a>c)
 	{
-		printf("your first entryis MAX = %d");
+		printf("your first entry is MAX = %d");
 	}
 		if(b>a && b>c)
 		{
