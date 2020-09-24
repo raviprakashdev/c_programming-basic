@@ -1,12 +1,18 @@
 #include<stdio.h> 
 #include<math.h> 
-int fib(int n) { 
-  double phi = (1 + sqrt(5)) / 2; 
-  return round(pow(phi, n) / sqrt(5)); 
+int fib(int n) 
+{ 
+   if (n <= 1) 
+      return n; 
+   return fib(n-1) + fib(n-2); 
 } 
+  
 int main () 
 { 
-  int n = 9; 
+  int n;
+  print("enter a number");
+  scanf("%d",&n);
   printf("%d", fib(n)); 
+  getchar(); 
   return 0; 
-}
+} 
