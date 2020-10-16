@@ -2,16 +2,13 @@
 
 int main()
 {
-int a,b;
-printf("Enter first number\n");
-scanf("%d",&a);
+  int a,b;
+  printf("Enter the two numbers: \n");
+  scanf("%d%d",&a,&b);
   
-printf("Enter second number\n");
-scanf("%d",&a);
-  
-if(a>b)
-printf("Largest number is %d",a);
-else
-printf("Largest number is %d",b);
-return 0;
+  if(a>b)
+    printf("Largest number is %d",a);
+  else
+    printf("Largest number is %d",b);
+  return 0;
 }
